@@ -1,0 +1,43 @@
+body{                                           /* CORPO DO HTML (ESTILO) */
+    background: rgb(37, 164, 196);            /* FUNDO DO DA PAGINA TOTAL*/  
+    font: normal 15pt Arial;                    /* FONTE GERAL DA PAGINA*/
+    
+}
+
+header{                                         /* CABEÇALHO (ESTILO)*/
+    color: white;                             /* MUDA A COR DO TEXTO DO CABEÇALHO*/
+    text-align: center;                         /* ALINHA O TEXTO*/
+    box-shadow: 10px 15px 35px black;
+    border-radius: 50px; 
+    width: 550px; 
+    margin: auto;
+}
+input#txtano{
+    text-align: center;
+    width: 60px;
+    border-radius: 5px; 
+    font: normal 12pt Arial;     
+}
+input#txtver{
+    
+    font: normal 15pt Arial; 
+    text-align: center;
+    width: 550px;
+    border-radius: 50px; 
+    width: 90px; 
+    box-shadow: 5px 5px 10px black;  
+}
+section{                                        /* SEÇÃO (ESTILO)*/
+    background: white;                        /* FUNDO DA SEÇÃO DA "div"*/
+    border-radius: 10px;                        /* AQUI VOCÊ ALTERA AS BORDAS DO BACKGROUND DA SEÇÃO DO DIV*/
+    padding: 15px;                              /* EXPANDE OU DIMINUI O BLOCO DO BACKGROUND*/
+    width: 550px;                               /* LARGURA DO BLOCO DO BACKGROUND*/
+    margin: auto;                               /* POSIÇÃO DA MARGIM DO TEXTO E DO BACKGROUND*/
+    box-shadow: 5px 5px 30px black;           /* SOMBREAMENTO: 5PX DE DESLOCAMENTO LATERAL, 5PX DE DESLOCAMENTO VERTICAL, 10 PX DE ESPALHAMENTO E BALCK QUE É A COR (RESPECTIVAMENTO)*/
+}
+
+footer{                                         /* RODAPÉ (ESTILO)*/
+    color: white;                             /* MUDA A COR DO TEXTO DO RODAPÉ*/
+    text-align: center;                         /* ALINHA O TEXTO*/
+    font-style: italic;                         /* ALTERA O ESTILO DA FONTE*/
+}

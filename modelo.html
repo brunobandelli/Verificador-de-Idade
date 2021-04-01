@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="estilo.css">                   <!-- LINK PARA O CSS (ESTILO DO SITE)-->
+</head>
+<body>
+    <header>                                                    <!-- CABEÇALHO DA PAGINA -->
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>                                                   <!-- SEÇÃO QUE IRÁ CONTER A "div"-->
+        <div>
+            <p>Ano de nascimento
+            <input type="number" name="txtano" id="txtano" min="0">         <!-- CRIA UMA CAIXA PARA POR VALOR NUMÉRICO-->
+        </p>
+        <p>Sexo
+            <input type="radio" name="radsex" id="masc" checked>            <!-- CRIA UMA CAIXA DE SELEÇÃO REDONDA JA COM MARCAÇÃO PARA "MASCULINO"-->
+            <label for="masc">Masculino</label>                             <!-- TRANFORMA O STRING: "MASCULINO" EM BOTÃO PARA O IMPUT ACIMA-->
+            <input type="radio" name="radsex" id="fem">                     <!-- CRIA OUTRA CAIXA DE SELEÇÃO REDONDA JA COM MARCAÇÃO PARA "FEMININO" DESSA VEZ-->
+            <label for="fem">Feminino</label>                               <!-- TRANFORMA O STRING: "FEMININO" EM BOTÃO PARA O IMPUT ACIMA-->
+        </p>
+        <p>
+            <input type="button" value="Verificar" onclick="verificar()" id="txtver">   <!-- CRIA O BOTÃO DE VERIFICAR COM O EVENTO DE ONCLICK-->
+        </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!        
+        </div>
+    </section>
+    <footer>                                                    <!-- RODAPÉ DA PAGINA -->
+        <p>&copy; CursoemVideo</p>                              <!-- O &copy serve para  criar o icone de COPYRIGHT-->
+    </footer>
+    <script src="script.js"></script>                           <!-- LINK PARA O JS (INTERAÇÃO DO SIE)-->
+    </body>
+</html>
